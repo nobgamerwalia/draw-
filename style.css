@@ -1,0 +1,48 @@
+
+  
+  h1
+  {
+    font-family: 'elite', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(38, 0, 255);
+    background-color: cornsilk;
+  }
+  
+  #show_sketch
+  {
+    float:right;
+  }
+  
+  #timer{
+    float: right;
+  }
+  
+  #sketch_to_be_drawn{
+    color: red;
+  }
+  
+  canvas 
+    {
+      border:2px solid white;
+      border-radius:20px;
+      margin-top:135px;
+      box-shadow:15px 15px 15px black;
+      box-shadow: 10px 10px 38px white
+      f;
+      animation-name: example;
+      animation-duration: 10s;
+      animation-iteration-count: infinite;
+  }
+  @keyframes example {
+  
+    from {box-shadow: 10px 10px 38px blue;}
+    to {box-shadow: 1px 10px 38px black;}
+  
+  }
+  
+  
+  p, span
+  {
+      padding-top:15px;
+      font-family: 'Special Elite', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size:20px;
+  }
